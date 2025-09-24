@@ -126,7 +126,7 @@ export const PROJECTS = [
     description:
       "Developed a multi-language transliteration app using React Native, enabling real-time script conver sion for languages like Hindi, Tamil, and Bengali. The app features a simple UI, supports multiple languages, and ensures smooth functionality on Android and iOS platforms.",
     technologies: ["React Native", "JavaScript", "Expo", "NLP"],
-    githubLink: "https://github.com/SoulCoder65/githubsearch",
+    githubLink: "https://github.com/adie253",
   },
 
   {
@@ -134,7 +134,7 @@ export const PROJECTS = [
     description:
       "Developed a paper publication website using ReactJS, allowing users to submit, review, and publish academic papers. The site features a clean interface, supports user authentication, and includes functionalities like paper uploads, peer reviews, and search filters for published works. It provides an efficient platform for managing the publication process.",
     technologies: ["ReactJS", "JavaScript", "MongoDB", "ExpressJS", "NodeJS"],
-    githubLink: "https://github.com/SoulCoder65/githubsearch",
+    githubLink: "https://github.com/adie253",
   },
 ];
 
