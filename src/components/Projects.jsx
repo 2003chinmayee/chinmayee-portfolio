@@ -21,11 +21,21 @@ const Projects = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: index * 0.02 }}
-            className="bg-neutral-800 rounded-lg shadow-md border border-neutral-700 p-6 hover:shadow-lg transition-shadow duration-300"
+            className="bg-neutral-800 rounded-lg shadow-md border border-neutral-700 p-6 hover:shadow-lg transition-shadow duration-300 relative"
           >
+
             <h3 className="text-2xl font-semibold mb-4 text-cyan-300">
               {project.title}
             </h3>
+             <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{position:"absolute", top:'0', right:'0', zIndex:'2', borderRadius:'15px 0px 0px 15px', boxShadow:'1px 1px 5px rgba(66, 48, 187, 0.3)', }}
+              className="mt-3 inline-block bg-cyan-600 text-white px-4 py-2 rounded hover:bg-cyan-700 transition-colors duration-300"
+            >
+              Visit
+            </a>
             <p className="text-neutral-300 mb-4">{project.description}</p>
 
             <div className="flex items-center flex-wrap mb-4">
@@ -46,6 +56,8 @@ const Projects = () => {
             >
               <FaGithub className="mr-2" /> View on GitHub
             </a> */}
+
+           
           </motion.div>
         ))}
       </div>

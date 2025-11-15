@@ -135,6 +135,26 @@ export const PROJECTS = [
       "Developed a paper publication website using ReactJS, allowing users to submit, review, and publish academic papers. The site features a clean interface, supports user authentication, and includes functionalities like paper uploads, peer reviews, and search filters for published works. It provides an efficient platform for managing the publication process.",
     technologies: ["ReactJS", "JavaScript", "MongoDB", "ExpressJS", "NodeJS"],
     githubLink: "https://github.com/adie253",
+    link:"https://adypsoe.in/adypjiet/contact.html",
+  },
+
+   {
+    title: "JobsBoard",
+    description:
+      "Created a job listing platform using MERN stack, enabling employers to post job openings and job seekers to search and apply for positions. The platform features user authentication, job filtering, and application tracking, providing a seamless experience for both employers and candidates.",
+    technologies: ["ReactJS", "JavaScript", "MongoDB", "ExpressJS", "NodeJS"],
+    githubLink: "https://github.com/adie253",
+    link:"https://jobsborad.vercel.app/",
+  },
+
+  
+   {
+    title: "Car Showroom UI",
+    description:
+      "Designed a Supercars showroom ui in figma with modern and sleek aesthetics. The design features a responsive layout, high-quality images, and intuitive navigation to enhance user experience. It showcases various car models with detailed specifications and pricing information.",
+    technologies: ["Figma", "UI/UX Design"],
+    githubLink: "https://github.com/adie253/Cars-Showroom",
+    link:"https://www.figma.com/proto/e1sfixZRdkSTfl3SYVK1Gg/Untitled?node-id=1-23&p=f&t=Cgp0ROSxvWQpLI9y-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
   },
 ];
 
